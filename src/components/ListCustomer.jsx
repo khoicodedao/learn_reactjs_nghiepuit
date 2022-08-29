@@ -40,7 +40,7 @@ const ListCustomer = () => {
     else{
 
         return(
-            <li data-target="#carousel-id" data-slide-to={index} className="" />
+            <li  key={index}  data-target="#carousel-id" data-slide-to={index} className="" />
     
         )
 
