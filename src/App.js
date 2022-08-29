@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ListCustomer from './components/ListCustomer';
+import Header from './components/Header';
+import Card from './components/Card';
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Header/>
+      <ListCustomer/>     
+      <Card title="MAC M1" url="https://ict-imgs.vgcloud.vn/2022/07/15/21/macbook-air-m1-giam-gia-mot-chiec-laptop-dang-dong-tien-bat-gao.jpg" name="Mac m1"></Card>
+
     </div>
   );
 }
