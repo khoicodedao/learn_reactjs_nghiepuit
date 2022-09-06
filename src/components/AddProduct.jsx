@@ -1,8 +1,8 @@
 import  { useRef } from "react";
 const AddProduct = (props)=> {
-    const title = useRef(null);
-    const url = useRef(null);
-    const name = useRef(null);
+    const title = useRef(0);
+    const url = useRef(0);
+    const name = useRef(0);
     let handleSubmit=() => {
         let listProductUpdate=props.listProduct;
         let dataUpdate={
